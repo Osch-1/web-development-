@@ -1,0 +1,187 @@
+@font-face {
+    font-family: Georgia; /* Имя шрифта */
+    src: url(../fonts/georgia.ttf); /* Путь к файлу со шрифтом */
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main_container
+{
+    width: 100%;
+    display: flex;
+    max-width: 1001px;
+    margin: 100px auto 0 auto;
+    height: 1500px; /*to compare with psd*/
+}
+
+.left_block
+{
+    float: left;
+    width: 33%;
+    margin-left: 2.9%;
+    margin-right: 5.9%;
+}
+
+.jane_photo
+{
+    width: 100%;
+    max-width: 330px;
+    border-radius: 5px;
+    margin-bottom: 41px;
+}
+
+.right_block
+{
+    float: right;
+    width: 57%;
+    margin-top: 51px;
+}
+
+.lists
+{
+    font: 700 24px "Open Sans", serif;
+    letter-spacing: 0.03em;
+    color: #15a98c;
+    line-height: 32px;
+}
+
+.list_inner
+{
+    margin: 13px 0 41px 21px;
+}
+
+.list_unit
+{
+    font: 19px Georgia, sans-serif;
+
+    letter-spacing: 0;
+    line-height: 36px;
+    color: #555;
+}
+
+/*Moved list unit*/
+.moved
+{
+    margin-left: -3px;
+}
+
+/*Block with quote, author*/
+.quote
+{
+    width: 100%;
+    background: url(../images/quote.jpg) no-repeat;
+    margin-bottom: 160px;
+}
+
+.quote_text
+{
+    padding-top: 12%;
+    padding-left: 10.6%;
+
+    font: 28px Georgia, sans-serif;
+
+    line-height: 42px;
+    color: #848484;
+    font-style: italic;
+
+}
+
+.quote_author
+{
+    margin-left: 65px;
+    margin-top: 15px;
+
+    font: 600 16px Open-Sans, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+
+    letter-spacing: 0.03em;
+    color: #515151;
+}
+
+.name_of_customer
+{
+
+
+    font: 700 48px "Open Sans", "Times New Roman", "Avenir", serif;
+    margin-left: 1%;
+    letter-spacing: 0.033em;
+    font-weight: bolder;
+
+    color: #333;
+    line-height: 42px;
+}
+
+.name_of_customer:after
+{
+    content: "";
+    display: block;
+    width: 55px;
+    margin: 30px 0 43px -5px;
+
+    color: #15a98c;
+
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+.text_field
+{
+    width: 100%;
+
+    font-size: 19px;
+    line-height: 32px;
+    color: #555555;
+    font-family: Georgia, sans-serif;
+}
+
+.first_text_field
+{
+    margin-bottom: 43px;
+}
+
+.plain_numbers
+{
+    font: 21px "Times New Roman", sans-serif;
+}
+
+.hobby_field_header
+{
+    font: 400 36px "Open Sans", "Times New Roman", "Avenir", serif;
+
+    line-height: 42px;
+    color: #333;
+
+    margin-bottom: 14px;
+}
+
+.second_text_field
+{
+    margin-bottom: 47px;
+}
+
+.type_me_button
+{
+    font: 19px "Georgia", serif;
+
+    color: #15a98b;
+    text-align: left;
+    text-decoration: none;
+
+    margin-top: 41px;
+}
+
+.type_me_button:hover
+{
+    color: #098d72;
+}
+
+.underlined_text
+{
+    text-decoration: underline;
+}
